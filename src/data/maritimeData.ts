@@ -39,7 +39,7 @@ export const CORE_BUSINESS_ITEMS: CoreBusinessItem[] = [
     title: 'Inland Dredging',
     subtitle: 'River, Lake, Pond & Reservoir Desilting',
     description: 'Restoring hydrological flood capacity, clearing sediment build-up from hydro dams, natural lakes, agricultural ponds, and inland commercial navigation waterways.',
-    image: 'https://images.unsplash.com/photo-1508739773434-c26b3d09e071?auto=format&fit=crop&w=1000&q=80',
+    image: '/images/photo-1508739773434-c26b3d09e071.jpg',
     features: ['Reservoir desilting down to 60m depth', 'River channel deepening & flood relief', 'Agricultural and municipal pond desilt', 'Eco-friendly silt containment'],
     icon: 'Waves'
   },
@@ -49,7 +49,7 @@ export const CORE_BUSINESS_ITEMS: CoreBusinessItem[] = [
     title: 'Dredging & Land Reclamation',
     subtitle: 'Fishing Harbor, Major & Minor Port and Terminals',
     description: 'Transforming intertidal zones into high-density commercial land platforms for container berths, industrial parks, and national maritime defense installations.',
-    image: 'https://images.unsplash.com/photo-1509316785289-025f5b846b35?auto=format&fit=crop&w=1000&q=80',
+    image: '/images/photo-1509316785289-025f5b846b35.jpg',
     features: ['Deep harbor fairway capital dredging', 'Long-distance pipeline hydraulic fill', 'Coastal protection and bund construction', 'Port approach channel maintenance'],
     icon: 'Anchor'
   },
@@ -59,7 +59,7 @@ export const CORE_BUSINESS_ITEMS: CoreBusinessItem[] = [
     title: 'New Dredger Design, Build & Supply',
     subtitle: 'Naval Architecture & Custom Shipyard Delivery',
     description: 'Engineering and constructing bespoke Cutter Suction Dredgers (CSD), Trailing Suction Hoppers, and modular amphibious rigs customized to client bathymetric requirements.',
-    image: 'https://images.unsplash.com/photo-1520699049698-acd2fccb8cc8?auto=format&fit=crop&w=1000&q=80',
+    image: '/images/photo-1520699049698-acd2fccb8cc8.jpg',
     features: ['IACS class naval certification', 'Modular dismountable road-transport pontoons', 'High-wear slurry pump integration', 'State-of-the-art PLC bridge automation'],
     icon: 'Ship'
   },
@@ -69,7 +69,7 @@ export const CORE_BUSINESS_ITEMS: CoreBusinessItem[] = [
     title: 'Dredger Operation, Maintenance & Repair',
     subtitle: 'Fleet Lifecycle Support & Master Crewing',
     description: 'Providing fully certified Master Mariners, Chief Engineers, and hydraulic specialists along with comprehensive shipyard docking and preventative overhaul programs.',
-    image: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=1000&q=80',
+    image: '/images/photo-1581091226825-a6a2a5aee158.jpg',
     features: ['Certified Dredge Masters & deck crew', 'Ultrasonic NDT hull thickness testing', 'High-pressure hydraulic overhaul', 'Dry-dock refurbishment management'],
     icon: 'Wrench'
   },
@@ -79,7 +79,7 @@ export const CORE_BUSINESS_ITEMS: CoreBusinessItem[] = [
     title: 'Customized Marine Heavy Lifting Equipment',
     subtitle: 'Port Handling & Heavy Marine Construction',
     description: 'Designing and fabricating pontoon-mounted crane barges, sheet pile driving leaders, clamshell hoisting spreads, and bespoke offshore lifting apparatus.',
-    image: 'https://images.unsplash.com/photo-1590496793929-36417d3117de?auto=format&fit=crop&w=1000&q=80',
+    image: '/images/photo-1590496793929-36417d3117de.jpg',
     features: ['Spud-stabilized crane barges up to 350T', 'Vibratory piling leader systems', 'Heavy grab and clamshell attachments', 'Safe sea-fastening and towing spreads'],
     icon: 'Compass'
   },
@@ -89,7 +89,7 @@ export const CORE_BUSINESS_ITEMS: CoreBusinessItem[] = [
     title: 'Dredging Components, Spares & Refurbishment',
     subtitle: 'High-Chrome Slurry Pumps, Hoses & Spares',
     description: 'Supplying rapid-replacement wear components including 27% chrome slurry pumps, rock cutter teeth, HDPE discharge pipelines, and automation flow sensors.',
-    image: 'https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=1000&q=80',
+    image: '/images/photo-1581092160607-ee22621dd758.jpg',
     features: ['High-chrome cast iron pump impellers', 'Steel-armored rubber dredging hoses', 'Virgin PE100 HDPE pipes & floaters', 'Continuous slurry density meters'],
     icon: 'Cpu'
   }
@@ -134,7 +134,7 @@ export const PRODUCTS_DATA: ProductItem[] = [
   // HYDRAULIC DREDGERS
   {
     id: 'csd-standard',
-    image: 'https://images.unsplash.com/photo-1569154941061-e231b4725ef1?auto=format&fit=crop&w=1000&q=80',
+    image: '/images/photo-1569154941061-e231b4725ef1.jpg',
     name: 'Cutter Suction Dredger (CSD)',
     category: 'hydraulic',
     categoryLabel: 'Hydraulic Dredgers',
@@ -151,7 +151,7 @@ export const PRODUCTS_DATA: ProductItem[] = [
   },
   {
     id: 'csd-custom',
-    image: 'https://images.unsplash.com/photo-1520699049698-acd2fccb8cc8?auto=format&fit=crop&w=1000&q=80',
+    image: '/images/photo-1520699049698-acd2fccb8cc8.jpg',
     name: 'Custom Built Dredgers',
     category: 'hydraulic',
     categoryLabel: 'Hydraulic Dredgers',
@@ -168,7 +168,7 @@ export const PRODUCTS_DATA: ProductItem[] = [
   },
   {
     id: 'suction-dredger',
-    image: 'https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?auto=format&fit=crop&w=1000&q=80',
+    image: '/images/photo-1494412574643-ff11b0a5c1c3.jpg',
     name: 'Suction Dredger',
     category: 'hydraulic',
     categoryLabel: 'Hydraulic Dredgers',
@@ -185,7 +185,7 @@ export const PRODUCTS_DATA: ProductItem[] = [
   },
   {
     id: 'jet-suction-dredger',
-    image: 'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1000&q=80',
+    image: '/images/photo-1518709268805-4e9042af9f23.jpg',
     name: 'Jet Suction Dredger',
     category: 'hydraulic',
     categoryLabel: 'Hydraulic Dredgers',
@@ -202,7 +202,7 @@ export const PRODUCTS_DATA: ProductItem[] = [
   },
   {
     id: 'amphibious-dredger',
-    image: 'https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&w=1000&q=80',
+    image: '/images/photo-1582719508461-905c673771fd.jpg',
     name: 'Multi Purpose Amphibious Dredger',
     category: 'hydraulic',
     categoryLabel: 'Hydraulic Dredgers',
@@ -219,7 +219,7 @@ export const PRODUCTS_DATA: ProductItem[] = [
   },
   {
     id: 'gold-mine-dredger',
-    image: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&w=1000&q=80',
+    image: '/images/photo-1581094794329-c8112a89af12.jpg',
     name: 'Gold Mine Dredger',
     category: 'hydraulic',
     categoryLabel: 'Hydraulic Dredgers',
@@ -236,7 +236,7 @@ export const PRODUCTS_DATA: ProductItem[] = [
   },
   {
     id: 'auger-dredger',
-    image: 'https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&w=1000&q=80',
+    image: '/images/photo-1581092795360-fd1ca04f0952.jpg',
     name: 'Auger Dredger',
     category: 'hydraulic',
     categoryLabel: 'Hydraulic Dredgers',
@@ -253,7 +253,7 @@ export const PRODUCTS_DATA: ProductItem[] = [
   },
   {
     id: 'bucket-wheel-dredger',
-    image: 'https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=1000&q=80',
+    image: '/images/photo-1581092160607-ee22621dd758.jpg',
     name: 'Bucket Wheel Dredger',
     category: 'hydraulic',
     categoryLabel: 'Hydraulic Dredgers',
@@ -270,7 +270,7 @@ export const PRODUCTS_DATA: ProductItem[] = [
   },
   {
     id: 'dam-reservoir-dredger',
-    image: 'https://images.unsplash.com/photo-1508739773434-c26b3d09e071?auto=format&fit=crop&w=1000&q=80',
+    image: '/images/photo-1508739773434-c26b3d09e071.jpg',
     name: 'Dam & Reservoir Dredger',
     category: 'hydraulic',
     categoryLabel: 'Hydraulic Dredgers',
@@ -287,7 +287,7 @@ export const PRODUCTS_DATA: ProductItem[] = [
   },
   {
     id: 'self-propelled-rock-csd',
-    image: 'https://images.unsplash.com/photo-1520699049698-acd2fccb8cc8?auto=format&fit=crop&w=1000&q=80',
+    image: '/images/photo-1520699049698-acd2fccb8cc8.jpg',
     name: 'Self Propelled Rock Cutter Suction Dredger',
     category: 'hydraulic',
     categoryLabel: 'Hydraulic Dredgers',
@@ -304,7 +304,7 @@ export const PRODUCTS_DATA: ProductItem[] = [
   },
   {
     id: 'self-propelled-rock-bucket-wheel',
-    image: 'https://images.unsplash.com/photo-1569154941061-e231b4725ef1?auto=format&fit=crop&w=1000&q=80',
+    image: '/images/photo-1569154941061-e231b4725ef1.jpg',
     name: 'Self Propelled Rock Bucket Wheel Dredger',
     category: 'hydraulic',
     categoryLabel: 'Hydraulic Dredgers',
@@ -321,7 +321,7 @@ export const PRODUCTS_DATA: ProductItem[] = [
   },
   {
     id: 'geotextile-filling-dredger',
-    image: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1000&q=80',
+    image: '/images/photo-1507525428034-b723cf961d3e.jpg',
     name: 'Geo Textile Tubes Filling Dredger',
     category: 'hydraulic',
     categoryLabel: 'Hydraulic Dredgers',
@@ -338,7 +338,7 @@ export const PRODUCTS_DATA: ProductItem[] = [
   },
   {
     id: 'weed-harvester',
-    image: 'https://images.unsplash.com/photo-1516214104703-d870798883c5?auto=format&fit=crop&w=1000&q=80',
+    image: '/images/photo-1516214104703-d870798883c5.jpg',
     name: 'Aquatic Weed Harvester',
     category: 'hydraulic',
     categoryLabel: 'Hydraulic Dredgers',
@@ -357,7 +357,7 @@ export const PRODUCTS_DATA: ProductItem[] = [
   // MECHANICAL DREDGERS
   {
     id: 'backhoe-dredger',
-    image: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1000&q=80',
+    image: '/images/photo-1504307651254-35680f356dfd.jpg',
     name: 'Backhoe Dredger (BHD)',
     category: 'mechanical',
     categoryLabel: 'Mechanical Dredgers',
@@ -374,7 +374,7 @@ export const PRODUCTS_DATA: ProductItem[] = [
   },
   {
     id: 'grab-dredger',
-    image: 'https://images.unsplash.com/photo-1605281317010-fe5ffe798166?auto=format&fit=crop&w=1000&q=80',
+    image: '/images/photo-1605281317010-fe5ffe798166.jpg',
     name: 'Grab Dredger',
     category: 'mechanical',
     categoryLabel: 'Mechanical Dredgers',
@@ -391,7 +391,7 @@ export const PRODUCTS_DATA: ProductItem[] = [
   },
   {
     id: 'clamshell-dredger',
-    image: 'https://images.unsplash.com/photo-1590496793929-36417d3117de?auto=format&fit=crop&w=1000&q=80',
+    image: '/images/photo-1590496793929-36417d3117de.jpg',
     name: 'Clamshell Dredger',
     category: 'mechanical',
     categoryLabel: 'Mechanical Dredgers',
@@ -408,7 +408,7 @@ export const PRODUCTS_DATA: ProductItem[] = [
   },
   {
     id: 'dipper-dredger',
-    image: 'https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&w=1000&q=80',
+    image: '/images/photo-1582719508461-905c673771fd.jpg',
     name: 'Dipper Dredger',
     category: 'mechanical',
     categoryLabel: 'Mechanical Dredgers',
@@ -427,7 +427,7 @@ export const PRODUCTS_DATA: ProductItem[] = [
   // HOPPER DREDGERS
   {
     id: 'tshd-standard',
-    image: 'https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=1000&q=80',
+    image: '/images/photo-1578575437130-527eed3abbec.jpg',
     name: 'Trailing Suction Hopper Dredger (TSHD)',
     category: 'hopper',
     categoryLabel: 'Hopper Dredgers',
@@ -444,7 +444,7 @@ export const PRODUCTS_DATA: ProductItem[] = [
   },
   {
     id: 'tshd-single-tube',
-    image: 'https://images.unsplash.com/photo-1518241353330-0f7941c2d9b5?auto=format&fit=crop&w=1000&q=80',
+    image: '/images/photo-1518241353330-0f7941c2d9b5.jpg',
     name: 'TSHD Single Tube',
     category: 'hopper',
     categoryLabel: 'Hopper Dredgers',
@@ -461,7 +461,7 @@ export const PRODUCTS_DATA: ProductItem[] = [
   },
   {
     id: 'tshd-double-tube',
-    image: 'https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?auto=format&fit=crop&w=1000&q=80',
+    image: '/images/photo-1494412574643-ff11b0a5c1c3.jpg',
     name: 'TSHD Double Tube',
     category: 'hopper',
     categoryLabel: 'Hopper Dredgers',
@@ -478,7 +478,7 @@ export const PRODUCTS_DATA: ProductItem[] = [
   },
   {
     id: 'clamshell-hopper',
-    image: 'https://images.unsplash.com/photo-1605281317010-fe5ffe798166?auto=format&fit=crop&w=1000&q=80',
+    image: '/images/photo-1605281317010-fe5ffe798166.jpg',
     name: 'Clamshell Loading Hopper Dredger',
     category: 'hopper',
     categoryLabel: 'Hopper Dredgers',
@@ -495,7 +495,7 @@ export const PRODUCTS_DATA: ProductItem[] = [
   },
   {
     id: 'excavator-hopper',
-    image: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1000&q=80',
+    image: '/images/photo-1504307651254-35680f356dfd.jpg',
     name: 'Excavator Loading Hopper Dredger',
     category: 'hopper',
     categoryLabel: 'Hopper Dredgers',
@@ -512,7 +512,7 @@ export const PRODUCTS_DATA: ProductItem[] = [
   },
   {
     id: 'backhoe-rock-breaker',
-    image: 'https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&w=1000&q=80',
+    image: '/images/photo-1582719508461-905c673771fd.jpg',
     name: 'Backhoe with Rock Breaker',
     category: 'hopper',
     categoryLabel: 'Hopper Dredgers',
@@ -531,7 +531,7 @@ export const PRODUCTS_DATA: ProductItem[] = [
   // ANCILLARY EQUIPMENT
   {
     id: 'survey-boat',
-    image: 'https://images.unsplash.com/photo-1524522173746-f628baad3644?auto=format&fit=crop&w=1000&q=80',
+    image: '/images/photo-1524522173746-f628baad3644.jpg',
     name: 'Hydrographic Survey Boat',
     category: 'ancillary',
     categoryLabel: 'Ancillary Equipment',
@@ -548,7 +548,7 @@ export const PRODUCTS_DATA: ProductItem[] = [
   },
   {
     id: 'passenger-speed-boat',
-    image: 'https://images.unsplash.com/photo-1506157786151-b8491531f063?auto=format&fit=crop&w=1000&q=80',
+    image: '/images/photo-1506157786151-b8491531f063.jpg',
     name: 'Passenger Speed Boat & Crew House Boat',
     category: 'ancillary',
     categoryLabel: 'Ancillary Equipment',
@@ -565,7 +565,7 @@ export const PRODUCTS_DATA: ProductItem[] = [
   },
   {
     id: 'multicat-workboat',
-    image: 'https://images.unsplash.com/photo-1569154941061-e231b4725ef1?auto=format&fit=crop&w=1000&q=80',
+    image: '/images/photo-1569154941061-e231b4725ef1.jpg',
     name: 'Multi Cat Workboat',
     category: 'ancillary',
     categoryLabel: 'Ancillary Equipment',
@@ -582,7 +582,7 @@ export const PRODUCTS_DATA: ProductItem[] = [
   },
   {
     id: 'tug-boat',
-    image: 'https://images.unsplash.com/photo-1518241353330-0f7941c2d9b5?auto=format&fit=crop&w=1000&q=80',
+    image: '/images/photo-1518241353330-0f7941c2d9b5.jpg',
     name: 'Maritime Tug Boat',
     category: 'ancillary',
     categoryLabel: 'Ancillary Equipment',
@@ -599,7 +599,7 @@ export const PRODUCTS_DATA: ProductItem[] = [
   },
   {
     id: 'split-hopper-barge',
-    image: 'https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?auto=format&fit=crop&w=1000&q=80',
+    image: '/images/photo-1494412574643-ff11b0a5c1c3.jpg',
     name: 'Self-Propelled Split Hopper Barge',
     category: 'ancillary',
     categoryLabel: 'Ancillary Equipment',
@@ -616,7 +616,7 @@ export const PRODUCTS_DATA: ProductItem[] = [
   },
   {
     id: 'bottom-door-barge',
-    image: 'https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=1000&q=80',
+    image: '/images/photo-1578575437130-527eed3abbec.jpg',
     name: 'Bottom Door Hopper Barge',
     category: 'ancillary',
     categoryLabel: 'Ancillary Equipment',
@@ -633,7 +633,7 @@ export const PRODUCTS_DATA: ProductItem[] = [
   },
   {
     id: 'crane-barge',
-    image: 'https://images.unsplash.com/photo-1590496793929-36417d3117de?auto=format&fit=crop&w=1000&q=80',
+    image: '/images/photo-1590496793929-36417d3117de.jpg',
     name: 'Spud Type Pontoon Mounted Crane Barge',
     category: 'ancillary',
     categoryLabel: 'Ancillary Equipment',
@@ -652,7 +652,7 @@ export const PRODUCTS_DATA: ProductItem[] = [
   // LAND RECLAMATION EQUIPMENT
   {
     id: 'heavy-excavators',
-    image: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1000&q=80',
+    image: '/images/photo-1504307651254-35680f356dfd.jpg',
     name: 'Heavy Marine Excavators',
     category: 'reclamation',
     categoryLabel: 'Land Reclamation Equipment',
@@ -669,7 +669,7 @@ export const PRODUCTS_DATA: ProductItem[] = [
   },
   {
     id: 'wheel-loaders-bulldozers',
-    image: 'https://images.unsplash.com/photo-1509316785289-025f5b846b35?auto=format&fit=crop&w=1000&q=80',
+    image: '/images/photo-1509316785289-025f5b846b35.jpg',
     name: 'Bulldozers & Wheel Loaders',
     category: 'reclamation',
     categoryLabel: 'Land Reclamation Equipment',
@@ -686,7 +686,7 @@ export const PRODUCTS_DATA: ProductItem[] = [
   },
   {
     id: 'vibrating-compactors',
-    image: 'https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&w=1000&q=80',
+    image: '/images/photo-1582719508461-905c673771fd.jpg',
     name: 'Vibrating Compactors, Road Rollers & Tippers',
     category: 'reclamation',
     categoryLabel: 'Land Reclamation Equipment',
@@ -706,7 +706,7 @@ export const PRODUCTS_DATA: ProductItem[] = [
 export const SERVICES_DATA: ServiceItem[] = [
   {
     id: 'survey',
-    image: 'https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=1000&q=80',
+    image: '/images/photo-1563986768609-322da13575f3.jpg',
     code: '01',
     title: 'Survey',
     tagline: 'High-Precision Hydrographic, Geophysical & Oceanographic Intelligence',
@@ -733,7 +733,7 @@ export const SERVICES_DATA: ServiceItem[] = [
   },
   {
     id: 'dredging',
-    image: 'https://images.unsplash.com/photo-1569154941061-e231b4725ef1?auto=format&fit=crop&w=1000&q=80',
+    image: '/images/photo-1569154941061-e231b4725ef1.jpg',
     code: '02',
     title: 'Dredging',
     tagline: 'Deepening Waterways, Mining Aggregates & Expanding Strategic Trade Channels',
@@ -768,7 +768,7 @@ export const SERVICES_DATA: ServiceItem[] = [
   },
   {
     id: 'marine_construction',
-    image: 'https://images.unsplash.com/photo-1605281317010-fe5ffe798166?auto=format&fit=crop&w=1000&q=80',
+    image: '/images/photo-1605281317010-fe5ffe798166.jpg',
     code: '03',
     title: 'Marine Construction',
     tagline: 'Resilient Heavy Civil Infrastructure Engineered for Harsh Oceanic Realities',
@@ -791,7 +791,7 @@ export const SERVICES_DATA: ServiceItem[] = [
   },
   {
     id: 'diving',
-    image: 'https://images.unsplash.com/photo-1505705694340-019e1e335916?auto=format&fit=crop&w=1000&q=80',
+    image: '/images/photo-1505705694340-019e1e335916.jpg',
     code: '04',
     title: 'Diving',
     tagline: 'IMCA-Compliant Underwater Engineering, Hull Surveying & Offshore Maintenance',
@@ -817,7 +817,7 @@ export const SERVICES_DATA: ServiceItem[] = [
   },
   {
     id: 'consultancy',
-    image: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=1000&q=80',
+    image: '/images/photo-1581091226825-a6a2a5aee158.jpg',
     code: '05',
     title: 'Project Management Consultancy',
     tagline: 'Strategic Maritime Advisory, Fleet Valuation, Geotechnical Due Diligence & EPC Management',
@@ -850,7 +850,7 @@ export const SERVICES_DATA: ServiceItem[] = [
 export const ACCESSORIES_DATA: AccessoryItem[] = [
   {
     id: 'acc-1',
-    image: 'https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=1000&q=80',
+    image: '/images/photo-1581092160607-ee22621dd758.jpg',
     name: 'Engine & Spare Parts',
     category: 'Power & Propulsion',
     description: 'Continuous duty marine diesel engines and OEM overhaul parts for main propulsion and auxiliary dredge pump drives.',
@@ -859,7 +859,7 @@ export const ACCESSORIES_DATA: AccessoryItem[] = [
   },
   {
     id: 'acc-2',
-    image: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&w=1000&q=80',
+    image: '/images/photo-1581094794329-c8112a89af12.jpg',
     name: 'Gear Box & Accessories',
     category: 'Mechanical Assemblies',
     description: 'Heavy-duty reduction gearboxes with built-in hydraulic clutch and multi-PTO output shafts for dredge pump coupling.',
@@ -868,7 +868,7 @@ export const ACCESSORIES_DATA: AccessoryItem[] = [
   },
   {
     id: 'acc-3',
-    image: 'https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=1000&q=80',
+    image: '/images/photo-1581092160607-ee22621dd758.jpg',
     name: 'Dredge Pumps & Booster Pumps',
     category: 'Pumps & Hydraulics',
     description: 'Single-stage, high-chrome white iron alloy pumps designed for highly abrasive gravel, coarse sand, and rock slurries.',
@@ -877,7 +877,7 @@ export const ACCESSORIES_DATA: AccessoryItem[] = [
   },
   {
     id: 'acc-4',
-    image: 'https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=1000&q=80',
+    image: '/images/photo-1563986768609-322da13575f3.jpg',
     name: 'Production Meters & Flow Meters',
     category: 'Instrumentation & Software',
     description: 'Non-intrusive full bore electromagnetic flow meters and real-time volumetric production instrumentation.',
@@ -886,7 +886,7 @@ export const ACCESSORIES_DATA: AccessoryItem[] = [
   },
   {
     id: 'acc-5',
-    image: 'https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=1000&q=80',
+    image: '/images/photo-1563986768609-322da13575f3.jpg',
     name: 'Density Meters & Viscosity Meters',
     category: 'Instrumentation & Software',
     description: 'Radiometric gamma and non-nuclear ultrasonic density gauges continuously monitoring solids percentage.',
@@ -895,7 +895,7 @@ export const ACCESSORIES_DATA: AccessoryItem[] = [
   },
   {
     id: 'acc-6',
-    image: 'https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=1000&q=80',
+    image: '/images/photo-1563986768609-322da13575f3.jpg',
     name: 'Vacuum Gauges & Pressure Gauges',
     category: 'Instrumentation & Software',
     description: 'Heavy-duty diaphragm isolated pressure and vacuum transmitters measuring dredge pump suction and discharge lines.',
@@ -904,7 +904,7 @@ export const ACCESSORIES_DATA: AccessoryItem[] = [
   },
   {
     id: 'acc-7',
-    image: 'https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?auto=format&fit=crop&w=1000&q=80',
+    image: '/images/photo-1581092580497-e0d23cbdf1dc.jpg',
     name: 'Dredge Monitoring Software',
     category: 'Instrumentation & Software',
     description: 'Integrated bridge computer suite displaying 3D cutter head location relative to design dredging channel profile.',
@@ -913,7 +913,7 @@ export const ACCESSORIES_DATA: AccessoryItem[] = [
   },
   {
     id: 'acc-8',
-    image: 'https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?auto=format&fit=crop&w=1000&q=80',
+    image: '/images/photo-1581092580497-e0d23cbdf1dc.jpg',
     name: 'HDPE Pipes & Floaters',
     category: 'Discharge Pipeline',
     description: 'Ultra-high molecular weight polyethylene pipes resistant to abrasive sand wear, with UV-stabilized polyurethane floaters.',
@@ -922,7 +922,7 @@ export const ACCESSORIES_DATA: AccessoryItem[] = [
   },
   {
     id: 'acc-9',
-    image: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&w=1000&q=80',
+    image: '/images/photo-1581094794329-c8112a89af12.jpg',
     name: 'Rubber Hoses & Self Floating Rubber Hoses',
     category: 'Discharge Pipeline',
     description: 'Steel ring reinforced flexible discharge hoses and integrated self-floating hoses for high wave action.',
@@ -931,7 +931,7 @@ export const ACCESSORIES_DATA: AccessoryItem[] = [
   },
   {
     id: 'acc-10',
-    image: 'https://images.unsplash.com/photo-1580974852861-c381510bc98a?auto=format&fit=crop&w=1000&q=80',
+    image: '/images/photo-1580974852861-c381510bc98a.jpg',
     name: 'Hydraulic Systems',
     category: 'Pumps & Hydraulics',
     description: 'High-pressure proportional hydraulic power units (HPU) for spud lifting, cutter drive motors, and swing winches.',
@@ -940,7 +940,7 @@ export const ACCESSORIES_DATA: AccessoryItem[] = [
   },
   {
     id: 'acc-11',
-    image: 'https://images.unsplash.com/photo-1580974852861-c381510bc98a?auto=format&fit=crop&w=1000&q=80',
+    image: '/images/photo-1580974852861-c381510bc98a.jpg',
     name: 'Floating Conveyor Belts',
     category: 'Mechanical Assemblies',
     description: 'Modular pontoon-mounted continuous belt conveyor systems for transporting dredged aggregate directly to shore without water.',
@@ -949,7 +949,7 @@ export const ACCESSORIES_DATA: AccessoryItem[] = [
   },
   {
     id: 'acc-12',
-    image: 'https://images.unsplash.com/photo-1580974852861-c381510bc98a?auto=format&fit=crop&w=1000&q=80',
+    image: '/images/photo-1580974852861-c381510bc98a.jpg',
     name: 'Cutter Head Assemblies & Pick Points',
     category: 'Mechanical Assemblies',
     description: 'Crown cutter heads engineered with interchangeable rock chisel teeth, serrated clay blades, and sand picks.',
@@ -958,7 +958,7 @@ export const ACCESSORIES_DATA: AccessoryItem[] = [
   },
   {
     id: 'acc-13',
-    image: 'https://images.unsplash.com/photo-1520699049698-acd2fccb8cc8?auto=format&fit=crop&w=1000&q=80',
+    image: '/images/photo-1520699049698-acd2fccb8cc8.jpg',
     name: 'Booster Stations',
     category: 'Pumps & Hydraulics',
     description: 'Skid-mounted or pontoon-mounted diesel/electric booster stations extending discharge pipeline distance beyond 8km.',
@@ -967,7 +967,7 @@ export const ACCESSORIES_DATA: AccessoryItem[] = [
   },
   {
     id: 'acc-14',
-    image: 'https://images.unsplash.com/photo-1590496793929-36417d3117de?auto=format&fit=crop&w=1000&q=80',
+    image: '/images/photo-1590496793929-36417d3117de.jpg',
     name: 'Anchor Systems & High-Holding-Power Anchors',
     category: 'Mooring & Anchoring',
     description: 'Delta-style and Danforth-style high holding power marine anchors engineered for swinging cutter suction dredgers.',
@@ -976,7 +976,7 @@ export const ACCESSORIES_DATA: AccessoryItem[] = [
   },
   {
     id: 'acc-15',
-    image: 'https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=1000&q=80',
+    image: '/images/photo-1581092160607-ee22621dd758.jpg',
     name: 'Ladder Assemblies, Spud Poles & Grabs',
     category: 'Mechanical Assemblies',
     description: 'Structural dredging ladder beams, cutter drive shafts, heavy spud carrier poles, and clamshell grabs.',
@@ -988,7 +988,7 @@ export const ACCESSORIES_DATA: AccessoryItem[] = [
 export const BUY_SELL_OPTIONS = [
   {
     id: 'DREDGERS_FOR_SALE',
-    image: 'https://images.unsplash.com/photo-1520699049698-acd2fccb8cc8?auto=format&fit=crop&w=1000&q=80',
+    image: '/images/photo-1520699049698-acd2fccb8cc8.jpg',
     tag: 'NEW & REFURBISHED FLEET',
     title: 'Dredgers For Sale',
     subtitle: 'High-Production Cutter Suction & Hopper Vessels',
@@ -998,7 +998,7 @@ export const BUY_SELL_OPTIONS = [
   },
   {
     id: 'USED_DREDGERS',
-    image: 'https://images.unsplash.com/photo-1569154941061-e231b4725ef1?auto=format&fit=crop&w=1000&q=80',
+    image: '/images/photo-1569154941061-e231b4725ef1.jpg',
     tag: 'CERTIFIED SECONDARY MARKET',
     title: 'Used Dredgers & Equipment',
     subtitle: 'Cost-Effective Turnkey Mobilization',
@@ -1008,7 +1008,7 @@ export const BUY_SELL_OPTIONS = [
   },
   {
     id: 'CHARTER_RENTAL',
-    image: 'https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=1000&q=80',
+    image: '/images/photo-1578575437130-527eed3abbec.jpg',
     tag: 'WET & DRY CHARTER',
     title: 'Dredger Charter & Rental',
     subtitle: 'Flexible Bareboat & Time Charter Contracts',
@@ -1018,7 +1018,7 @@ export const BUY_SELL_OPTIONS = [
   },
   {
     id: 'SELL_YOUR_DREDGER',
-    image: 'https://images.unsplash.com/photo-1605281317010-fe5ffe798166?auto=format&fit=crop&w=1000&q=80',
+    image: '/images/photo-1605281317010-fe5ffe798166.jpg',
     tag: 'ASSET DISPOSITION',
     title: 'Sell Your Dredger',
     subtitle: 'Global Maritime Buyer Network',
@@ -1224,7 +1224,7 @@ export const CAREER_ROLES: CareerRole[] = [
 export const CAPABILITIES_DATA: ProjectCapability[] = [
   {
     id: 'cap-1',
-    image: 'https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=1000&q=80',
+    image: '/images/photo-1578575437130-527eed3abbec.jpg',
     title: 'Deepwater Port Channel Capital Deepening',
     category: 'Capital Dredging',
     location: 'Western Seaboard, India',
@@ -1236,7 +1236,7 @@ export const CAPABILITIES_DATA: ProjectCapability[] = [
   },
   {
     id: 'cap-2',
-    image: 'https://images.unsplash.com/photo-1509316785289-025f5b846b35?auto=format&fit=crop&w=1000&q=80',
+    image: '/images/photo-1509316785289-025f5b846b35.jpg',
     title: 'Major Container Terminal Port Reclamation',
     category: 'Marine Land Reclamation',
     location: 'Eastern Maritime Corridor',
@@ -1248,7 +1248,7 @@ export const CAPABILITIES_DATA: ProjectCapability[] = [
   },
   {
     id: 'cap-3',
-    image: 'https://images.unsplash.com/photo-1590496793929-36417d3117de?auto=format&fit=crop&w=1000&q=80',
+    image: '/images/photo-1590496793929-36417d3117de.jpg',
     title: 'Strategic Naval Breakwater & Quay Wall Piling',
     category: 'Marine Construction',
     location: 'Southern Coastal Defense Port',
@@ -1260,7 +1260,7 @@ export const CAPABILITIES_DATA: ProjectCapability[] = [
   },
   {
     id: 'cap-4',
-    image: 'https://images.unsplash.com/photo-1524522173746-f628baad3644?auto=format&fit=crop&w=1000&q=80',
+    image: '/images/photo-1524522173746-f628baad3644.jpg',
     title: 'Multibeam Hydrographic & Geotechnical Survey Corridor',
     category: 'Hydrographic Survey',
     location: 'Gulf Maritime Approaches',
@@ -1272,7 +1272,7 @@ export const CAPABILITIES_DATA: ProjectCapability[] = [
   },
   {
     id: 'cap-5',
-    image: 'https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1000&q=80',
+    image: '/images/photo-1544551763-46a013bb70d5.jpg',
     title: 'Subsea Hull Inspection & Commercial Diver Salvage',
     category: 'Commercial Diving',
     location: 'Deepwater Anchorage Terminal',

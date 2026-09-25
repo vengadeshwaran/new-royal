@@ -72,7 +72,7 @@ export const CompanyIntro: React.FC = () => {
 
               {/* Real Shipyard & Fleet Photo */}
               <MaritimeImage
-                src="https://images.unsplash.com/photo-1605281317010-fe5ffe798166?auto=format&fit=crop&w=1000&q=80"
+                src="/images/photo-1605281317010-fe5ffe798166.jpg"
                 alt="Swalf Group Shipyard and Marine Fleet"
                 badge="Naval Engineering"
                 className="h-52 w-full rounded-2xl mb-5 border border-[#DCE8F2] shadow-sm"

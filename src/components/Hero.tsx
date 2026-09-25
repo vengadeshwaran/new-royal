@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import { ArrowRight, ChevronDown } from 'lucide-react';
 
 interface HeroProps {
@@ -7,6 +7,26 @@ interface HeroProps {
 }
 
 export const Hero: React.FC<HeroProps> = ({ onExploreServices }) => {
+  const [currentVideoIndex, setCurrentVideoIndex] = useState(0);
+  const videoRef = useRef<HTMLVideoElement>(null);
+  
+  const videos = [
+    '/hero-video.mp4',
+    '/hero-video1.mp4',
+    '/hero-video2.mp4'
+  ];
+
+  const handleVideoEnded = () => {
+    setCurrentVideoIndex((prev) => (prev + 1) % videos.length);
+  };
+
+  useEffect(() => {
+    if (videoRef.current) {
+      videoRef.current.load();
+      videoRef.current.play().catch(e => console.log('Video play interrupted:', e));
+    }
+  }, [currentVideoIndex]);
+
   const handleScrollToNext = (e: React.MouseEvent<HTMLAnchorElement>) => {
     e.preventDefault();
     const nextSection = document.getElementById('about');
@@ -18,18 +38,19 @@ export const Hero: React.FC<HeroProps> = ({ onExploreServices }) => {
   return (
     <section className="relative w-full min-h-screen flex flex-col justify-between overflow-hidden bg-[#021526]">
       {/* 1. BACKGROUND VIDEO LAYER (Using the Attached Video File) */}
-      <div className="absolute inset-0 z-0 overflow-hidden">
+      <div className="absolute inset-0 z-0 overflow-hidden bg-[#021526]">
         <video
+          ref={videoRef}
           autoPlay
           muted
-          loop
           playsInline
           preload="auto"
-          className="absolute inset-0 h-full w-full object-cover object-center scale-100 animate-hero-fade"
-          poster="https://images.unsplash.com/photo-1518241353330-0f7941c2d9b5?auto=format&fit=crop&w=1920&q=80"
+          onEnded={handleVideoEnded}
+          className="absolute inset-0 h-full w-full object-cover object-center scale-100 transition-opacity duration-1000"
+          poster="/images/photo-1518241353330-0f7941c2d9b5.jpg"
         >
           {/* Primary attached video paths */}
-          <source src="/hero-video.mp4" type="video/mp4" />
+          <source src={videos[currentVideoIndex]} type="video/mp4" />
         </video>
 
         {/* 2. CINEMATIC OVERLAY TREATMENT: Subtle dark navy gradient that keeps the vessel crisp and visible */}

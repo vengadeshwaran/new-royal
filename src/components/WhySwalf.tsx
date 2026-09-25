@@ -63,7 +63,7 @@ export const WhySwalf: React.FC = () => {
 
               {/* Real Operational Photo */}
               <MaritimeImage
-                src="https://images.unsplash.com/photo-1569154941061-e231b4725ef1?auto=format&fit=crop&w=1000&q=80"
+                src="/images/photo-1569154941061-e231b4725ef1.jpg"
                 alt="Swalf Group High Precision Marine Operations"
                 badge="ISO 9001 / ISM"
                 className="mb-6 h-56 w-full rounded-2xl border border-[#DCE8F2] shadow-sm"

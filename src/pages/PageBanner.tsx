@@ -23,7 +23,7 @@ export const PageBanner: React.FC<PageBannerProps> = ({
   stats,
   onPrimaryCta,
   primaryCtaLabel = 'Request Project Quotation',
-  bgImage = 'https://images.unsplash.com/photo-1518241353330-0f7941c2d9b5?auto=format&fit=crop&w=1920&q=80'
+  bgImage = '/images/photo-1518241353330-0f7941c2d9b5.jpg'
 }) => {
   return (
     <section className="relative pt-32 pb-16 lg:pt-36 lg:pb-20 bg-[#052B52] text-white overflow-hidden border-b border-[#DCE8F2]/20">

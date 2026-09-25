@@ -20,7 +20,7 @@ export const MaritimeImage: React.FC<MaritimeImageProps> = ({
   const [isLoaded, setIsLoaded] = useState(false);
 
   // Fallback high-resolution maritime image if src fails or is missing
-  const fallbackSrc = 'https://images.unsplash.com/photo-1518241353330-0f7941c2d9b5?auto=format&fit=crop&w=1000&q=80';
+  const fallbackSrc = '/images/photo-1518241353330-0f7941c2d9b5.jpg';
 
   const displaySrc = (!src || hasError) ? fallbackSrc : src;
 
