@@ -1,0 +1,266 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: 'Space Grotesk', 'Outfit', 'Plus Jakarta Sans', sans-serif;
+  --font-fun: 'Outfit', 'Space Grotesk', sans-serif;
+  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace;
+}
+
+@layer base {
+  :root {
+    --color-primary-blue: #063B73;
+    --color-deep-blue: #052B52;
+    --color-royal-blue: #0B5CAB;
+    --color-bright-blue: #1677D2;
+    --color-light-blue: #EAF4FC;
+    --color-very-light-blue: #F5FAFF;
+    --color-white: #FFFFFF;
+    --color-dark-text: #102A43;
+    --color-secondary-text: #526777;
+    --color-border: #DCE8F2;
+    --color-accent-gold: #D97706;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    color: #102A43;
+    background-color: #FFFFFF;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    background-color: #FFFFFF;
+    color: #102A43;
+    overflow-x: hidden;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+  }
+
+  h1, h2, h3, h4 {
+    letter-spacing: -0.025em;
+  }
+}
+
+.font-display {
+  font-family: 'Space Grotesk', 'Outfit', 'Plus Jakarta Sans', sans-serif;
+  letter-spacing: -0.025em;
+}
+
+.font-fun {
+  font-family: 'Outfit', 'Space Grotesk', sans-serif;
+}
+
+.font-mono {
+  font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-feature-settings: "tnum" 1;
+}
+
+/* Water & Maritime Vessel Animations */
+@keyframes heroFadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes heroSlideUp {
+  from {
+    opacity: 0;
+    transform: translateY(28px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes scrollMouse {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  50% {
+    transform: translateY(8px);
+    opacity: 0.3;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animate-hero-fade {
+  animation: heroFadeIn 1.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.animate-hero-slide-1 {
+  animation: heroSlideUp 1s cubic-bezier(0.16, 1, 0.3, 1) 0.15s both;
+}
+
+.animate-hero-slide-2 {
+  animation: heroSlideUp 1s cubic-bezier(0.16, 1, 0.3, 1) 0.35s both;
+}
+
+.animate-hero-slide-3 {
+  animation: heroSlideUp 1s cubic-bezier(0.16, 1, 0.3, 1) 0.55s both;
+}
+
+.animate-hero-slide-4 {
+  animation: heroSlideUp 1s cubic-bezier(0.16, 1, 0.3, 1) 0.75s both;
+}
+
+.animate-scroll-mouse {
+  animation: scrollMouse 2s ease-in-out infinite;
+}
+
+@keyframes waveMotion1 {
+  0% { transform: translateX(0) translateZ(0); }
+  50% { transform: translateX(-25%) translateZ(0); }
+  100% { transform: translateX(-50%) translateZ(0); }
+}
+
+@keyframes waveMotion2 {
+  0% { transform: translateX(-50%) translateZ(0); }
+  50% { transform: translateX(-25%) translateZ(0); }
+  100% { transform: translateX(0) translateZ(0); }
+}
+
+@keyframes boatPitchRoll {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  25% {
+    transform: translateY(-8px) rotate(1.8deg);
+  }
+  50% {
+    transform: translateY(-3px) rotate(-0.8deg);
+  }
+  75% {
+    transform: translateY(5px) rotate(-1.5deg);
+  }
+}
+
+@keyframes boatGentleRock {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-6px) rotate(-1.2deg);
+  }
+}
+
+@keyframes sailAcross {
+  0% {
+    transform: translateX(-160px);
+  }
+  100% {
+    transform: translateX(calc(100vw + 160px));
+  }
+}
+
+@keyframes buoyBob {
+  0%, 100% {
+    transform: translateY(0px) rotate(-3deg);
+  }
+  50% {
+    transform: translateY(-9px) rotate(4deg);
+  }
+}
+
+@keyframes radarSpin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes cutterSpin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes foamRipple {
+  0%, 100% {
+    opacity: 0.4;
+    transform: scaleX(0.9) translateY(0);
+  }
+  50% {
+    opacity: 0.85;
+    transform: scaleX(1.1) translateY(-2px);
+  }
+}
+
+.animate-wave-1 {
+  animation: waveMotion1 14s linear infinite;
+}
+
+.animate-wave-2 {
+  animation: waveMotion2 18s linear infinite;
+}
+
+.animate-wave-3 {
+  animation: waveMotion1 22s linear infinite;
+}
+
+.animate-boat-pitch {
+  animation: boatPitchRoll 4.8s ease-in-out infinite;
+  transform-origin: 50% 65%;
+}
+
+.animate-boat-gentle {
+  animation: boatGentleRock 3.6s ease-in-out infinite;
+  transform-origin: 50% 60%;
+}
+
+.animate-sail-slow {
+  animation: sailAcross 45s linear infinite;
+}
+
+.animate-buoy {
+  animation: buoyBob 3.2s ease-in-out infinite;
+  transform-origin: 50% 85%;
+}
+
+.animate-radar {
+  animation: radarSpin 2.5s linear infinite;
+  transform-origin: center;
+}
+
+.animate-cutter {
+  animation: cutterSpin 1.8s linear infinite;
+  transform-origin: center;
+}
+
+.animate-foam {
+  animation: foamRipple 2.2s ease-in-out infinite;
+}
+
+/* Maritime mesh subtle light textures */
+.bg-maritime-pattern {
+  background-image: radial-gradient(rgba(11, 92, 171, 0.08) 1px, transparent 1px);
+  background-size: 28px 28px;
+}
+
+.bg-depth-grid-light {
+  background-size: 40px 40px;
+  background-image: 
+    linear-gradient(to right, rgba(6, 59, 115, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(6, 59, 115, 0.04) 1px, transparent 1px);
+}
+
+/* Light corporate scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F5FAFF;
+}
+::-webkit-scrollbar-thumb {
+  background: #B6D8F2;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #0B5CAB;
+}
